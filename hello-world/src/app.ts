@@ -17,7 +17,7 @@ export default class HelloWorld {
 		const botaoVermelho = await this.assets.loadGltf('Botao_Vermelho.glb', "box");
 		const botaoAzul = await this.assets.loadGltf('Botao_Azul.glb', "box");
 		const setaAsset = await this.assets.loadGltf('Seta.glb', "box");
-		const pulpito = await this.assets.loadGltf('altspace-cube.glb', "box");
+		const pulpito = await this.assets.loadGltf('Pulpito2.glb', "box");
 
 		this.texto = MRE.Actor.Create(this.context, {
 			actor: {
@@ -56,25 +56,25 @@ export default class HelloWorld {
 					local: {
 						position: { x: 0, y: -1, z: -0.5 },
 						scale: { x: 0.4, y: 0.4, z: 0.4 },
-						rotation: { x: 0, y: 180, z: 0 }
+						rotation: { x: 0, y: 180, z: 150 }
 					}
 				}
 			}
 		});	
-		/* this.palanque = MRE.Actor.CreateFromPrefab(this.context, {
+		 this.palanque = MRE.Actor.CreateFromPrefab(this.context, {
 			firstPrefabFrom: pulpito,  		
 			actor: {
 				name: 'botaoADM',
 				parentId: this.texto.id,
 				transform: {
 					local: {
-						position: { x: 0, y: -2, z: 0 },
+						position: { x: 0, y: -3.9, z: 0 },
 						scale: { x: 0.6, y: 0.6, z: 0.6 },
 						rotation: { x: 0, y: 0, z: 0 }
 					}
 				}
 			}
-		});		 */
+		});		 
 		const buttonBehavior = this.BotaoAzul.setBehavior(MRE.ButtonBehavior);
 		const buttonHost = this.BotaoVermelho.setBehavior(MRE.ButtonBehavior);
 		buttonHost.onClick(usuario => {
