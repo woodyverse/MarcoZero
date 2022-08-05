@@ -1,0 +1,81 @@
+{
+    "none": {
+        "displayName": "None"
+    },
+    "hardhat": {
+        "displayName": "Cenario Azul",
+        "resourceName": "Cenario01_salabranca.glb",
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 0,
+            "y": -6,
+            "z": 0
+        }
+    },
+    "LavaHelmet": {
+        "displayName": "Cenario Vermelho",
+        "resourceName": "Cenario02_salabranca.glb",
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 0,
+            "y": -6,
+            "z": 0
+        }
+    },
+    "redhat": {
+        "displayName": "Cenario Verde",
+        "resourceName": "Cenario03_salabranca.glb",
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 0,
+            "y": -6,
+            "z": 0
+        }
+    },
+    "lojaSentouro": {
+        "displayName": "Loja Sentouro",
+        "resourceName": "SalaSentouro.gltf",
+        "scale": {
+            "x": 8,
+            "y": 8,
+            "z": 8
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": -6,
+            "y": -7,
+            "z": 0
+        }
+    }
+}
