@@ -1,2 +1,0 @@
-# MarcoZero
-projeto inicial
